@@ -1,0 +1,26 @@
+{
+  "name": "webrtc-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "keywords": [
+    "example",
+    "heroku"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "libp2p": "^0.28.0",
+    "libp2p-tcp": "^0.14.5",
+    "libp2p-webrtc-star": "^0.18.3",
+    "libp2p-websockets": "^0.13.6",
+    "wrtc": "^0.4.5"
+  },
+  "engines": {
+    "node": "12.16.3"
+  }
+}
